@@ -82,7 +82,7 @@ Test and solidify your Python skills with these assignments:
 We welcome contributions! Here's how you can help:  
 
 1. 🍴 **Fork** the repository.  
-2. 📥 **Clone** your forked repo: `git clone <repo-url>`.  
+2. 📥 **Clone** your forked repo: `git clone https://github.com/rohitgiri28coding/python-programming-basics`.  
 3. 🌿 Create a new branch: `git checkout -b feature-name`.  
 4. ✏️ Make your changes and commit them: `git commit -m "Description of changes"`.  
 5. 📤 Push to your fork: `git push origin feature-name`.  
