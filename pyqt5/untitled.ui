@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>873</width>
+    <height>829</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QScrollArea" name="main_frame_scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>836</width>
+         <height>1518</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QFrame" name="main_frame">
+          <property name="minimumSize">
+           <size>
+            <width>815</width>
+            <height>1500</height>
+           </size>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>790</width>
+             <height>78</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Lucida Calligraphy</family>
+             <pointsize>36</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>WORLD OF STATISTICS</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QFrame" name="frame">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>100</y>
+             <width>821</width>
+             <height>371</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <widget class="QScrollArea" name="scrollArea">
+              <property name="widgetResizable">
+               <bool>true</bool>
+              </property>
+              <widget class="QWidget" name="scrollAreaWidgetContents_3">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>782</width>
+                 <height>718</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_4">
+                <item>
+                 <widget class="QFrame" name="frame_2">
+                  <property name="minimumSize">
+                   <size>
+                    <width>750</width>
+                    <height>700</height>
+                   </size>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <widget class="QComboBox" name="comboBox">
+                   <property name="geometry">
+                    <rect>
+                     <x>50</x>
+                     <y>20</y>
+                     <width>301</width>
+                     <height>31</height>
+                    </rect>
+                   </property>
+                  </widget>
+                  <widget class="Line" name="line">
+                   <property name="geometry">
+                    <rect>
+                     <x>380</x>
+                     <y>0</y>
+                     <width>31</width>
+                     <height>991</height>
+                    </rect>
+                   </property>
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                  </widget>
+                  <widget class="QLabel" name="label_2">
+                   <property name="geometry">
+                    <rect>
+                     <x>430</x>
+                     <y>10</y>
+                     <width>321</width>
+                     <height>51</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Times New Roman</family>
+                     <pointsize>24</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Enter Frequency</string>
+                   </property>
+                  </widget>
+                  <widget class="QCheckBox" name="checkBox">
+                   <property name="geometry">
+                    <rect>
+                     <x>610</x>
+                     <y>60</y>
+                     <width>693</width>
+                     <height>20</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Times New Roman</family>
+                     <pointsize>14</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>If all f = 1</string>
+                   </property>
+                  </widget>
+                  <widget class="QWidget" name="verticalLayoutWidget">
+                   <property name="geometry">
+                    <rect>
+                     <x>490</x>
+                     <y>130</y>
+                     <width>181</width>
+                     <height>551</height>
+                    </rect>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_6">
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_3"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_9"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_7"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_8"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_6"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_5"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_4"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_2"/>
+                    </item>
+                   </layout>
+                  </widget>
+                  <widget class="QLineEdit" name="lineEdit">
+                   <property name="geometry">
+                    <rect>
+                     <x>250</x>
+                     <y>70</y>
+                     <width>131</width>
+                     <height>31</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Times New Roman</family>
+                     <pointsize>16</pointsize>
+                    </font>
+                   </property>
+                   <property name="layoutDirection">
+                    <enum>Qt::LeftToRight</enum>
+                   </property>
+                   <property name="text">
+                    <string>8</string>
+                   </property>
+                  </widget>
+                  <widget class="QLabel" name="label_3">
+                   <property name="geometry">
+                    <rect>
+                     <x>6</x>
+                     <y>72</y>
+                     <width>241</width>
+                     <height>31</height>
+                    </rect>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Times New Roman</family>
+                     <pointsize>15</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Enter number of observations:</string>
+                   </property>
+                  </widget>
+                  <widget class="QWidget" name="verticalLayoutWidget_3">
+                   <property name="geometry">
+                    <rect>
+                     <x>200</x>
+                     <y>130</y>
+                     <width>181</width>
+                     <height>551</height>
+                    </rect>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_8">
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_10"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_11"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_12"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_13"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_14"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_15"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_16"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_17"/>
+                    </item>
+                   </layout>
+                  </widget>
+                  <widget class="QWidget" name="verticalLayoutWidget_2">
+                   <property name="geometry">
+                    <rect>
+                     <x>0</x>
+                     <y>130</y>
+                     <width>181</width>
+                     <height>551</height>
+                    </rect>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_7">
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_18"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_19"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_20"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_21"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_22"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_23"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_24"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_25"/>
+                    </item>
+                   </layout>
+                  </widget>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QFrame" name="choice_frame">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>480</y>
+             <width>811</width>
+             <height>681</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_5">
+            <item>
+             <widget class="QScrollArea" name="scrollArea_2">
+              <property name="widgetResizable">
+               <bool>true</bool>
+              </property>
+              <widget class="QWidget" name="scrollAreaWidgetContents_4">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>789</width>
+                 <height>659</height>
+                </rect>
+               </property>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>873</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
